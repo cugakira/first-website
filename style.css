@@ -1,0 +1,202 @@
+  html {
+      font-family: Cascandia Code;
+      background-image: url("https://bikefriendlyoc.org/wp-content/uploads/2016/09/website-background-pattern.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      text-align: center;
+      line-height: 6px;
+  }
+  
+  .banner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .songs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .skills {
+      position: relative;
+      font-size: larger;
+      color: white;
+      padding: 20px;
+      z-index: 1;
+  }
+  
+  .skills::before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: 5px;
+      bottom: 5px;
+      background-color: black;
+      z-index: -1;
+      border-radius: 10px;
+  }
+  
+  .about {
+      position: relative;
+      font-size: larger;
+      color: white;
+      padding: 20px;
+      z-index: 1;
+  }
+  
+  .about::before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: 5px;
+      bottom: 5px;
+      background-color: black;
+      z-index: -1;
+      border-radius: 10px;
+  }
+  
+  .songs {
+      position: relative;
+      font-size: larger;
+      color: white;
+      padding: 20px;
+      z-index: 1;
+  }
+  
+  .songs::before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: 5px;
+      bottom: 5px;
+      background-color: black;
+      z-index: -1;
+      border-radius: 10px;
+  }
+  
+  .contact {
+      position: relative;
+      font-size: larger;
+      color: white;
+      padding: 20px;
+      z-index: 1;
+  }
+  
+  .contact::before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: 5px;
+      bottom: 5px;
+      background-color: black;
+      z-index: -1;
+      border-radius: 10px;
+  }
+  
+  nav {
+      position: sticky;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.9);
+      /* Hintergrundfarbe mit leichter Transparenz */
+      z-index: 1000;
+      padding: 10px 20px;
+      width: calc(100% - 40px);
+      /* Etwas Abstand zum Rand */
+      margin: 10px auto;
+      /* Zentriert die Navigation */
+      border-radius: 10px;
+      /* Abrundung */
+  }
+  
+  nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+      color: purple;
+      /* Farbe beim Hover */
+      text-decoration: underline;
+  }
+  
+  .lieder {
+      position: relative;
+      font-size: larger;
+      color: white;
+      padding: 10px;
+      background-color: #30dc64;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      /* Abstand zwischen den grünen Kästchen */
+      z-index: 1;
+  }
+  /* Entferne das before-Pseudoelement oder vereinfache es wie folgt */
+  
+  #kontaktformular {
+      background-color: #333;
+      /* Dark background */
+      color: white;
+      padding: 30px 20px;
+      /* More padding for space */
+      border-radius: 8px;
+      /* Rounder corners */
+      max-width: 400px;
+      /* Set max-width to make form more compact */
+      margin: 20px auto;
+      /* Center the form */
+  }
+  
+  #kontaktformular {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 400px;
+      margin: 20px auto;
+      text-align: left;
+  }
+  
+  #kontaktformular h2 {
+      text-align: center;
+      margin-bottom: 15px;
+  }
+  
+  #kontaktformular label,
+  #kontaktformular input,
+  #kontaktformular textarea {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+  }
+  
+  #kontaktformular input,
+  #kontaktformular textarea {
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+  }
+  
+  #kontaktformular button {
+      width: 100%;
+      padding: 10px;
+      background-color: rgb(40, 220, 100);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  #kontaktformular button:hover {
+      background-color: rgb(30, 200, 80);
+  }
